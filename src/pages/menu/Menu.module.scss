@@ -61,9 +61,18 @@
         padding: 50px $padding-horizontal-md;
     }
 
-    &__titulo {
+    &__title {
         color: $dark;
         font-size: 3rem;
         margin-bottom: 30px;
     }
+
+         &__searches {
+             align-items: center;
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: space-between;
+             margin-bottom: 30px;
+             width: 100%;
+         }
 }
